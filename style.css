@@ -1,0 +1,70 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", sans-serif;
+  color: #202a35;
+  background: #f4f7f9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 3rem 1.25rem;
+}
+
+main {
+  width: min(100%, 42rem);
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  color: #173f35;
+}
+
+p {
+  margin-top: 0;
+  color: #52616b;
+}
+
+#repository-list {
+  margin: 2rem 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #d7e0e3;
+}
+
+#repository-list li {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #d7e0e3;
+}
+
+#repository-list a {
+  color: #176b56;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+#repository-list a:hover {
+  color: #104b3d;
+}
+
+.description {
+  margin: 0.4rem 0;
+  color: #52616b;
+}
+
+.starred-date {
+  color: #687780;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 30rem) {
+  body {
+    padding-top: 2rem;
+  }
+}
